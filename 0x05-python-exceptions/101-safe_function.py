@@ -17,6 +17,6 @@ Otherwise - the result of the call to fct.
     try:
         result = fct(*args)
         return (result)
-    except (TypeError, ValueError):
+    except:
         print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
         return (None)
