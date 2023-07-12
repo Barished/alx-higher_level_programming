@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wednesday July 5:13:37 2023
+
+@author: Deebom Barisi
+"""
 
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
@@ -20,7 +26,7 @@ class Square(BaseGeometry):
 
     def __str__(self):
         """
-        str funtion to print with/height
+        str funtion to print width/height
 
         Returns:
             Return width/height
