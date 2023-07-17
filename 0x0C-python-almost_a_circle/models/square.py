@@ -15,7 +15,8 @@ class Square(Rectangle):
             y (int): The y coordinate of the new Square.
             id (int): The identity of the new Square.
         """
-    super().__init__(size, size, x, y, id)
+        super().__init__(size, size, x, y, id)
+        self.size = size
 
     @property
     def size(self):
